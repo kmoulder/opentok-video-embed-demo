@@ -8,7 +8,12 @@
   <div>End: <time><%= meeting.end_time %></time></div>
 </div>
 
-<div id="ot_embed_demo_container"><%- embed_code %></div>
+<div id="ot_embed_demo_container"><iframe
+        src="https://tokbox.com/embed/embed/ot-embed.js?embedId=331a4c02-71e3-41be-b494-0c14377f5e8f&room=DEFAULT_ROOM&iframe=true"
+        width="800px"
+        height="640px"
+        allow="microphone; camera"
+      ></iframe></div>
 <div class="text-center">
   <p><a class="button primary" href="/">Exit</a></p>
 </div>
